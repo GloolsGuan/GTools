@@ -4,7 +4,7 @@ Glools-Drupal development tools package. Development and maintaining by @GloolsG
 
 
 Connect to me:
-==
+
 Twitter : @GloolsGuan
 
 Email   : GloolsGuan@glools.com
@@ -18,7 +18,7 @@ GTools depend on: Drupal 7
 
 
 Description:
-==
+
 GTools is a suite of package for online learning system and any enterprise site. GTools is special for programmer, It is means that you need to read the code and developing your code base on GTools.
 
 The original name of GTools is "Glools-Drupal" package.
@@ -31,7 +31,7 @@ The GTools package is still on developing, maybe after you download it, You foun
 
 
 The contents of the package:
-==
+
 
 [gt]
 
