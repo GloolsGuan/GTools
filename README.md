@@ -3,7 +3,7 @@ GTools
 Glools-Drupal development tools package. Development and maintaining by @GloolsGuan.
 
 
-=Connect to me:=
+: Connect to me:
 
 Twitter : @GloolsGuan
 
