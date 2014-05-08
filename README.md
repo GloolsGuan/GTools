@@ -10,18 +10,35 @@ Blog    : gtools.glools.com
 GTools depend on: Drupal 7
 
 The core contents of the package:
+
 [gt]
-  * /libraries/gt
-  * It is a suite of library for Drupal
+  path: /sites/all/libraries/gt
+  desc: It is a suite of library for Drupal
+
 [glools]
-  * /sites/all/modules/glools
-  * It is normal module for enable gtools core library.
+  path: /sites/all/modules/glools
+  desc: It is normal module for enable gtools core library.
+
 [frontend]
-  * /sites/all/modules/frontend
-  * (developing state) It is a frontend module for control and render the site.
+  path: /sites/all/modules/frontend
+  desc: (developing state) It is a frontend module for control and render the site.
+
 [ggarden]
-  * /themes/ggarden
-  * (developing state) It is suite of theme for structuring the site frontend.
-[]
+  path: /themes/ggarden
+  desc: (developing state) It is suite of theme for structuring the site frontend.
 
+[views]
+  path: /sites/all/views
+  desc: (developing state) It are views components package.
 
+[models]
+  path: /sites/all/models
+  desc: (developing state) It is the core database controller.
+  
+[address]
+  path: /sites/all/modules/address
+  desc: It is a field module special for chinese address. The module contain a chinese-city and area database sql file.
+  
+[oapi]
+  path: /sites/all/modules/oapi
+  desc: Open API for the third part API integration. It is special for DISCUZ2.5+ and UCENTER system.
