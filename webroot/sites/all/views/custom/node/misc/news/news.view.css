@@ -1,0 +1,24 @@
+#view_custom_node_news{
+	/*width:340px;*/
+	/*float:right;*/
+}
+
+#view_custom_node_news .block-title{
+	padding:0 15px;
+	line-height:50px;
+	background:#EEE;
+	color:#FF9900;
+}
+
+#view_custom_node_news .block-content{
+	padding:15px;
+}
+
+
+/*
+	Promote books channel
+*/
+#view_custom_node_news.block-view_custom_node_news-promotebooks{
+	float:right;
+	width:300px;
+}

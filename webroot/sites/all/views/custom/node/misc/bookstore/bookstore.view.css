@@ -1,0 +1,42 @@
+#view_custom_node_bookstore.block-view_custom_node_bookstore-frontpage{
+    width:300px;
+    float:right;
+    height:560px;
+    background:#FD0;
+}
+
+#view_custom_node_bookstore.block-view_custom_node_bookstore-frontpage .block-title{
+	font-size:1.5em;
+	color:#EEE;
+	text-align:right;
+	background:#FF9900;
+	line-height:50px;
+}
+
+#view_custom_node_bookstore.block-view_custom_node_bookstore-frontpage .slideContainer{
+	width:300px;
+	overflow:hidden;
+}
+#view_custom_node_bookstore .handlers{
+	text-align:right;
+	position:absolute;
+	width:300px;
+	overflow:hidden;
+}
+
+#view_custom_node_bookstore .handlers div{
+	font-size:1.2em;
+	padding:0px 6px;
+	color:#DDD;
+	cursor:pointer;
+	float:right;
+	display:none;
+	width:50px;
+	background:#EEE;
+	text-align:center;
+}
+
+#view_custom_node_bookstore .handlers .handlerActive{
+	color:#525252;
+	display:block;
+}

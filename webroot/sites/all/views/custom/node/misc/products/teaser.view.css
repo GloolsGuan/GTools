@@ -1,0 +1,90 @@
+.block-view_custom_node_products-design.feature-teaser{
+
+}
+
+.block-view_custom_node_products-design.feature-teaser .block-title{
+	display:block;
+	height:40px;
+	/*width:100%;*/
+	margin-bottom:30px;
+	text-align:center;
+	background:url('/misc/xf1996/block-title-bgline.jpg') repeat-x 0 18px;
+}
+
+.block-view_custom_node_products-design.feature-teaser .block-title img{
+	height:40px;
+}
+
+.block-view_custom_node_products-design.feature-teaser .block-content{
+    padding:55px;
+    width:620px;
+    /*background:#FF9900;*/
+}
+
+.block-view_custom_node_products-design.feature-teaser .node{
+    width:200px;
+    height:200px;
+    overflow:hidden;
+    margin:3px;
+    float:left;
+}
+
+.block-view_custom_node_products-design.feature-teaser .node-teaser{
+	border:0px;
+	padding-bottom:0px;
+}
+.block-view_custom_node_products-design.feature-teaser .node .field-name-field-product-logo{
+	width:200px;
+	height:200px;
+	overflow:hidden;
+}
+.block-view_custom_node_products-design.feature-teaser .node .field-name-field-product-logo img{
+	width:200px;
+	height:auto;
+    min-height:260px;
+}
+
+.block-view_custom_node_products-design.feature-teaser .handlers{
+	display:none;
+}
+
+/* Design: top */
+.block-view_custom_node_products-design.cycptop{
+
+}
+
+.block-view_custom_node_products-design.cycptop .block-content{
+    width:500px;
+    float:left;
+    padding:0px;
+    height:256px;
+    overflow:hidden;
+}
+
+.block-view_custom_node_products-design.cycptop .block-content .node:first-child{
+	width:250px;
+	height:250px;
+}
+
+.block-view_custom_node_products-design.cycptop .block-content .node:first-child img{
+	width:250px;
+	min-height:250px;
+	height:auto;
+}
+.block-view_custom_node_products-design.cycptop .node .field-name-field-product-logo{
+	width:auto;
+	height:auto;
+	overflow:hidden;
+}
+.block-view_custom_node_products-design.cycptop .block-content .node.order-2{
+    width:237px;
+    height:127px;
+}.block-view_custom_node_products-design.cycptop .block-content .node.order-2 img{
+	width:237px;
+	height:auto;
+}
+.block-view_custom_node_products-design.cycptop .block-content .node{
+    width:115px;
+    height:115px;
+    overflow:hidden;
+}

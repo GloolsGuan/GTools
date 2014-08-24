@@ -1,0 +1,117 @@
+#view_custom_activities_slide{
+    width:1020px;
+    height:340px;
+    overflow:hidden;
+    /*border-top:2px #ff0000 solid;*/
+    /*border-bottom:2px #999 solid;*/
+    /*padding-bottom:20px;*/
+    
+    background:#ff9900;
+    /*border-bottom:1px #360 SOLID;*/
+}
+
+#view_custom_activities_slide .block-content{
+    height:100%;
+    overflow:hidden;
+}
+#view_custom_activities_slide .slideContainer .slideContent{
+    height:340px;
+}
+#view_custom_activities_slide .item{
+    width:1020px;
+    height:340px;
+    overflow:hidden;
+    float:left;
+}
+
+#view_custom_activities_slide .item .logo{
+    float:left;
+    width:1020px;
+    height:340px;
+    /*box-shadow: 3px 3px 8px #666666;*/
+}
+#view_custom_activities_slide .item .activity_logo img{
+    width:1020px;
+    height:340px;
+}
+/*
+#view_custom_activities_slide .item .introbg{
+    position:absolute;
+    width:300px;
+    height:260px;
+    padding:10px;
+    margin-left:610px;
+    margin-top:-280px;
+    filter:alpha(opacity=40);
+    -moz-opacity:0.4;
+    opacity:0.4;
+    background:#FFF;
+}*/
+#view_custom_activities_slide .item .introbg{
+    background:#000;
+    filter:alpha(opacity=60);
+    -moz-opacity:0.6;
+    opacity:0.6;
+}
+#view_custom_activities_slide .item .introbg,
+#view_custom_activities_slide .item .intro{
+    color: #EEE;
+    float: right;
+    height: 320px;
+    line-height: 26px;
+    margin-top: -340px;
+    padding: 10px;
+    position: relative;
+    width: 250px;
+    font-size:0.9em;
+    color:#CCC;
+}
+#view_custom_activities_slide .item .intro .desc{
+    color: #DDDDDD;
+    font-size: 0.86em;
+    line-height: 20px;
+    padding-top: 10px;
+    
+}
+#view_custom_activities_slide .item .intro .title{
+    font-size:1.1em;
+    margin-bottom:20px;
+    font-weight: bold;
+    /*font-weight:bold;*/
+}
+
+#view_custom_activities_slide .item .intro a,
+#view_custom_activities_slide .item .intro a:hover{
+    color:#FF8C00; /*#EEAD0E*/
+    clear:both;
+}
+
+/*
+    handlers style
+*/
+#view_custom_activities_slide  .handlers{
+    color: #FFFFFF;
+    height: 30px;
+    margin-left: 860px;
+    margin-top: -40px;
+    position: absolute;
+    width: 150px;
+}
+#view_custom_activities_slide .handlers div{
+    width:60px;
+    height:30px;
+    background:#999;
+    cursor:pointer;
+    border-radius:10px;
+    position:relative;
+    float:left;
+    font-size:1em;
+    line-height:28px;
+    text-align:center;
+}
+#view_custom_activities_slide .handlers div:first-child{
+    margin-right:20px;
+}
+#view_custom_activities_slide .handlers div.handlerActive{
+    background:#360;
+}

@@ -1,0 +1,87 @@
+#view_custom_node_drawingboard{
+	width:650px;
+	height:366px;
+	overflow:hidden;
+	float:left;
+}
+
+#view_custom_node_drawingboard .block-content{
+	width:650px;
+	height:366px;
+	overflow:hidden;
+	float:left;
+}
+#view_custom_node_drawingboard .handlersBG{
+	osition:absolute;
+	margin-top:286px;
+	width:650px;
+	height:80px;
+	background:#333;
+	filter:alpha(opacity=60);
+	-moz-opacity:0.6;
+	-khtml-opacity: 0.6;
+	opacity: 0.6;
+}
+#view_custom_node_drawingboard .handlers{
+	position:absolute;
+	margin-top:-80px;
+	width:650px;
+	height:80px;
+}
+
+#view_custom_node_drawingboard .handlers>DIV{
+	float:left;
+	width:auto;
+	padding:0 10px;
+	height:70px;
+	margin:5px;
+}
+#view_custom_node_drawingboard .handlers .bB,
+#view_custom_node_drawingboard .handlers .bA{
+	width:18px;
+	height:70px;
+	text-align:center;
+	margin:5px;
+	background:#DDD;
+	float:right;
+	cursor:pointer;
+}
+#view_custom_node_drawingboard .handlers .bA{
+	background: url('misc/xf1996/comment-arrow-rtl.gif') 10px 15px no-repeat;
+}
+#view_custom_node_drawingboard .handlers .bB{
+	background: url('misc/xf1996/comment-arrow.gif') no-repeat scroll 10px 15px;
+}
+
+#view_custom_node_drawingboard .handlers .tabsMap>DIV{
+	float:left;
+	width:70px;
+	height:70px;
+	margin-right:5px;
+	background:#DDD;
+	filter:alpha(opacity=40);
+	-moz-opacity:0.4;
+	-khtml-opacity: 0.4;
+	opacity: 0.4;
+	overflow:hidden;
+}
+#view_custom_node_drawingboard .handlers .tabsMap{
+	padding:0px;
+}
+
+#view_custom_node_drawingboard .handlers .tabsMap .tabActive{
+    filter:alpha(opacity=100);
+	-moz-opacity:1;
+	-khtml-opacity: 1;
+	opacity: 1;
+	border:1px #FF9900 solid;
+}
+
+#view_custom_node_drawingboard .handlers .tabsMap>DIV:first-child{
+	margin-left:0px;
+}
+
+#view_custom_node_drawingboard .handlers .tabsMap img{
+	width:auto;
+	height:70px;
+}

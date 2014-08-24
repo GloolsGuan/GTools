@@ -1,0 +1,10 @@
+#view_custom_node_activity{
+	background:#EEE;
+}
+
+#view_custom_node_activity .block-title{
+	background:#003333;
+	line-height:50px;
+	color:#FFF;
+	padding:0 15px;
+}

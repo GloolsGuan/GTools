@@ -1,0 +1,49 @@
+#view_custom_lasooo_welfare{
+    background:#212121 url(/misc/images/lasooo-ad-05.jpg) no-repeat;
+}
+
+#view_custom_lasooo_welfare .block-content{
+    color:#FFFF00;
+    overflow:hidden;
+}
+
+#view_custom_lasooo_welfare .block-content .title{
+    width:300px;
+    height:60px;
+    /*border:1px #FF0000 solid;*/
+    margin-left:710px;
+    margin-top:120px;
+    position:absolute;
+}
+#view_custom_lasooo_welfare .block-content .title .title-bg{
+    background:#666;
+    width:300px;
+    height:60px;
+    filter:alpha(opacity=70);
+    -moz-opacity:0.7;
+    opacity:0.7;
+}
+#view_custom_lasooo_welfare .block-content .title .title-text{
+    font-size:1.6em;
+    line-height:60px;
+    color:#FFF;
+    margin-top:-60px;
+    margin-left:0px;
+    padding:0 20px;
+    position:absolute;
+}
+
+#view_custom_lasooo_welfare .block-content .title .title-text a{
+    font-size:1em;
+    color:#FF7F24;
+}
+
+#view_custom_lasooo_welfare .block-content .desc{
+    position:absolute;
+    margin-top:120px;
+    margin-left:10px;
+    height:60px;
+    line-height:60px;
+    font-size:1.3em;
+    color:#EEE;
+}

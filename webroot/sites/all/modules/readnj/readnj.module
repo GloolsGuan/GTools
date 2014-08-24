@@ -1,0 +1,17 @@
+<?php
+
+function readnj_init(){
+	drupal_add_css(path_to_theme() . '/css/readnj/readnj.global.css');
+}
+
+function readnj_node_view_alter(&$node, $view_mode){
+    
+	if ('activity'==$node['#bundle'] && 'full'==$node['#view_mode']) {
+	    drupal_add_css(path_to_theme() . '/css/node/activity-full.node.css');
+		
+	}
+    
+	//debug_rdata(__FUNCTION__, path_to_theme() . '/css/node/activity-full.node.css');
+	
+	
+}

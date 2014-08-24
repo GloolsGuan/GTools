@@ -1,0 +1,11 @@
+#view_lasooo_tellyourfriends{
+    background:#6959CD;
+}
+
+#view_lasooo_tellyourfriends .block-content{
+    color:#FFFF00;
+}
+
+#view_lasooo_tellyourfriends .block-content span.title{
+    font-size:1.4em;
+}

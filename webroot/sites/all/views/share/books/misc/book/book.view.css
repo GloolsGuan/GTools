@@ -1,0 +1,31 @@
+#view_share_books_book{
+
+}
+
+#view_share_books_book .block-title{
+    font-size:1.1em;
+    color:#666;
+}
+
+#view_share_books_book .block-title a{
+    color:#666;
+}
+
+#view_share_books_book .block-title a:hover{
+    color:#336633;
+}
+
+#view_share_books_book .block-content ul li{
+    list-style:none;
+    line-height:26px;
+    font-size:0.8em;
+}
+
+
+#view_share_books_book .block-content ul li a{
+    color:#666;
+}
+
+#view_share_books_book .block-content ul li a:hover{
+    color:#336633;
+}

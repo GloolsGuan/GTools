@@ -1,0 +1,192 @@
+.block-view_custom_node_news-xf1996.feature-whitewall_logo{
+    width:100%;
+    margin-top:50px;
+}
+.block-view_custom_node_news.feature-whitewall_logo .node-title img{
+	width:auto;
+	height:40px;
+}
+#view_custom_node_news.feature-whitewall .block-content{
+	padding:0px;
+}
+
+
+.block-view_custom_node_news-xf1996.feature-whitewall .node-title,
+.block-view_custom_node_news-xf1996.feature-whitewall .content{
+	float:left;
+}
+.block-view_custom_node_news-xf1996.feature-whitewall_logo .node{
+	width:570px;
+	float:right;
+}
+.block-view_custom_node_news-xf1996.feature-whitewall_logo .node-title img{
+	width:120px;
+	height:auto;
+}
+
+
+.block-view_custom_node_news.feature-whitewall_logo .node-title{
+	margin-top:20px;
+	width:130px;
+	float:left;
+}
+.block-view_custom_node_news.feature-whitewall_logo h2,
+.block-view_custom_node_news.feature-whitewall_logo .meta{
+	padding-left:225px;
+}
+
+.block-view_custom_node_news.feature-whitewall_logo .field-name-field-image{
+	float:left;
+	width:200px;
+	height:200px;
+	margin-top:-50px;
+	overflow:hidden;
+}
+
+.block-view_custom_node_news.feature-whitewall_logo .field-name-field-image img{
+	width:200px;
+	height:auto;
+}
+
+.block-view_custom_node_news.feature-whitewall_logo .field-name-body{
+	float:left;
+	width:330px;
+	margin-left:25px;
+}
+
+.block-view_custom_node_news.feature-whitewall_logo .field-name-field-article-category,
+.block-view_custom_node_news.feature-whitewall_logo .links,
+.block-view_custom_node_news.feature-whitewall_logo .field-name-field-tags{
+	display:none;
+}
+
+/* -- block-view_custom_node_news-books -- */
+.block-view_custom_node_news-books.feature-whitewall_logo .node-title{
+    display:block;
+	height:40px;
+	width:100%;
+	margin-bottom:30px;
+	text-align:center;
+	background:url('/misc/xf1996/block-title-bgline.jpg') repeat-x 0 18px;
+}
+
+.block-view_custom_node_news-books.feature-whitewall_logo .field-name-field-image{
+	width:150px;
+	height:auto;
+}
+
+.block-view_custom_node_news-books.feature-whitewall_logo .field-name-field-image img{
+	width:150px;
+	height:auto;
+}
+
+.block-view_custom_node_news-books.feature-whitewall_logo .node{
+	width:100%;
+	float:none;
+}
+
+.block-view_custom_node_news-books.feature-whitewall_logo .field-name-body{
+	width:520px;
+	margin-left:48px;
+}
+.block-view_custom_node_news-books.feature-whitewall_logo h2,
+.block-view_custom_node_news-books.feature-whitewall_logo .meta{
+	padding-left:200px;
+}
+
+
+/* -- Coffee -- */
+.block-view_custom_node_news-coffee.feature-whitewall_logo{
+
+}
+
+.block-view_custom_node_news-coffee.feature-whitewall_logo .node-title{
+    display:block;
+	height:40px;
+	margin-bottom:30px;
+	text-align:center;
+	width:100%;
+	background:url('/misc/xf1996/block-title-bgline.jpg') repeat-x 0 18px;
+}
+
+.block-view_custom_node_news-coffee.feature-whitewall_logo .node-title img{
+	height:40px;
+	width:auto;
+}
+
+.block-view_custom_node_news-coffee.feature-whitewall_logo .node{
+	margin-bottom:30px;
+}
+.block-view_custom_node_news-coffee.feature-whitewall_logo .field-name-body{
+	width:480px;
+	margin-left:40px;
+}
+.block-view_custom_node_news-coffee.feature-whitewall_logo h2,
+.block-view_custom_node_news-coffee.feature-whitewall_logo .meta{
+	padding-left:240px;
+}
+.block-view_custom_node_news-coffee.feature-whitewall_logo h2 a{
+	color:#000;
+	font-size:1.1em;
+	font-family:'华文中宋','微软雅黑';
+}
+.block-view_custom_node_news-coffee.feature-whitewall_logo h2{
+	margin-bottom:20px;
+	font-weight:bold;
+}
+.block-view_custom_node_news-coffee.feature-whitewall_logo .meta{
+	display:none;
+}
+
+.block-view_custom_node_news-coffee.feature-whitewall_logo .field-name-field-image {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-top: -50px;
+    overflow: hidden;
+}
+
+/* Products: ChuangYiHuoDong */
+.block-view_custom_node_news-design.cyhd{
+	margin-bottom:50px;
+	width:200px;
+	float:right;
+}
+
+.block-view_custom_node_news-design.cyhd .node-title{
+	width:100%;
+	display:block;
+	height:40px;
+	display:none;
+	margin-bottom:30px;
+	text-align:center;
+	background:url('/misc/xf1996/block-title-bgline.jpg') repeat-x 0 18px;
+}
+.block-view_custom_node_news-design.cyhd .node-title img{
+	height:40px;
+	width:auto;
+}
+
+.block-view_custom_node_news-design.cyhd .node{
+	width:180px;
+	float:right;
+	overflow:hidden;
+	clear:both;
+	padding-left:25px;
+	margin-bottom:8px;
+	background:url('/misc/xf1996/icon-point-2.png') no-repeat 5px 5px;
+}
+
+.block-view_custom_node_news-design.cyhd .node .meta,
+.block-view_custom_node_news-design.cyhd .node .content{
+    display:none;
+}
+
+.block-view_custom_node_news-design.cyhd .node h2{
+	padding-left:0px;
+	margin:0;
+	color:#000;
+}
+.block-view_custom_node_news-design.cyhd .node h2 a{
+    color:#000;
+}

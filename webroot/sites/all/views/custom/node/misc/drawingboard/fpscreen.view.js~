@@ -1,0 +1,40 @@
+(function($){
+	var xf1996Bg = function(){
+	    
+	    var pageWrapper       = '.page-wrapper';
+	    var xf1996BgContainer = '#view_custom_node_drawingboard.feature-screen';
+	    var tabContainer      = '.slideContainer';
+	    var tabContent        = '.slideContent';
+	    var tabItem           = '.node-drawingboard';
+	    
+	    
+	    this.setContainer = function(){
+	        var sWidth = screen.availWidth;
+	        var sHeight = screen.availHeight;
+	        
+	        //$(pageWrapper).css({'width':sWidth+'px', 'height':sHeight+'px', 'overflow':'hidden'});
+	        //$(xf1996BgContainer).css({'width':sWidth+'px', 'height':sHeight+'px'});
+	        //$(tabContainer).css({'width':sWidth+'px', 'height':sHeight+'px'});
+	        $(tabItem).css({'width':sWidth+'px', 'height':sHeight+'px'});
+	        $(tabItem).find('img').css({'width':sWidth+'px', 'height':'auto'});
+
+            $(xf1996BgContainer).show();
+	    }
+
+
+	}
+    $(document).ready(function(){
+	    
+	    var xf1996Screen = new xf1996Bg();
+	    xf1996Screen.setContainer(); 
+	    
+	    var screenAttributes = '';
+	   
+	    for(s in screen) {
+	        screenAttributes += 'screen.'+s + ' = ' + screen[s] + "\n"     
+	    }
+	    //alert(screenAttributes);
+	    
+	    
+	});
+})(jQuery);

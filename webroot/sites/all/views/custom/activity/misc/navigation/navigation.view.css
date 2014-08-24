@@ -1,0 +1,28 @@
+#view_custom_activity_navigation{
+    height:100px;
+}
+#view_custom_activity_navigation .block-title{
+    display:none;
+}
+#view_custom_activity_navigation .block-content>div{
+    
+}
+
+#view_custom_activity_navigation .block-content>div a{
+    width:110px;
+    line-height:36px;
+    font-size:1.2em;
+    float:left;
+    border-left:9px #CCC solid;
+    margin:10px;
+    border-radius:8px;
+    background:#DDD;
+    text-align:center;
+    color:#333;
+    color:#444;
+}
+#view_custom_activity_navigation .block-content>div a:hover{
+    color:#EEE;
+    background:#096816;
+    border-left:9px #ff9900 solid;
+}

@@ -1,0 +1,27 @@
+#view_custom_node_products{
+	/*background:#EEE;*/
+}
+
+#view_custom_node_products .block-title{
+	background:#003333;
+	line-height:50px;
+	color:#EEE;
+	padding:0 15px;
+}
+
+#view_custom_node_products .block-content{
+    overflow:hidden;
+    width:1020px;
+}
+.block-view_custom_node_products-frontpage .handlers{
+	text-align:right;
+	background:#555;
+	
+}
+.block-view_custom_node_products-frontpage .handlers span{
+	font-size:1.3em;
+	padding:5px 10px;
+	color:#EEE;
+	cursor:pointer;
+	line-height:30px;
+}
