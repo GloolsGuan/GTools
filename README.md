@@ -9,7 +9,7 @@ Twitter : @GloolsGuan
 
 Email   : GloolsGuan@glools.com
 
-Blog    : gtools.glools.com
+Blog    : http://glools.me/index.php/gtools
 
 
 
