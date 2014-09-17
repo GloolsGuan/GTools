@@ -29,6 +29,9 @@ The GTools package is still on developing, maybe after you download it, You foun
 
 
 
+News:
+[2014/09/17] The version of the GTools-0.51 is still developing, Until now, There is no a beta or stable version published. I am triming the GTools package, The new beta version will be comming soon. More information about the GTools please visit my blog : glools.me 
+
 
 The contents of the package:
 
