@@ -1,0 +1,61 @@
+#view_custom_activity_members{
+    margin-top:40px;
+}
+
+#view_custom_activity_members .block-content{
+    color:#096816;
+    padding:5px 10px;
+}
+#view_custom_activity_members .state{
+    color:#096816;
+    line-height:30px;
+    margin-top:10px;
+}
+#view_custom_activity_members .newbies-content{
+    
+}
+#view_custom_activity_members .newbies-content .title{
+    line-height:30px;
+    border-bottom:1px #DDD solid;
+    margin:10px 0;
+    color:#525252;
+}
+#view_custom_activity_members .newbies .newbie{
+    width:60px;
+    height:60px;
+    float:left;
+    margin-left:20px;
+    border-radius:5px;
+    border:1px #EEE solid;
+    overflow:hidden;
+}
+
+#view_custom_activity_members .newbies .newbie:first-child{
+    margin-left:0px;
+}
+
+#view_custom_activity_members .newbies img{
+    width:60px;
+    height:60px;
+}
+
+#view_custom_activity_members .block-content .flags{
+    border-bottom:none;
+}
+#view_custom_activity_members .block-content .flags a{
+    padding:5px 8px;
+    border-radius:5px;
+    background:#DDD;
+    color:#096816;
+    font-size:0.9em;
+}
+
+#view_custom_activity_members .block-content .flags a.unflag-action{
+    color:#FF7F00;
+}
+
+#view_custom_activity_members .block-content .flags .flag-like a span{
+    color:#666;
+    font-size:0.8em;
+    margin-left:10px;
+}

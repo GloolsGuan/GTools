@@ -1,0 +1,45 @@
+#view_share_menu_normal.feature-normal-homeTab{
+    padding-left:10px;
+}
+#view_share_menu_normal .block-title{
+    display:none;
+}
+
+//-------------------------------------------------------
+#view_share_menu_normal.feature-normal-homeTab ul{
+    padding:0px;
+    margin:0px;
+}
+#view_share_menu_normal.feature-normal-homeTab ul li{
+    margin:0px;
+    padding:0px;
+}
+
+#view_share_menu_normal.feature-normal-homeTab li.mtabs-new a{
+    text-align:center;
+    line-height:46px;
+    color:#91c100;
+}
+#view_share_menu_normal.feature-normal-homeTab ul li a{
+    padding:0px;
+    margin:0px;
+    display:block;
+    text-align:right;
+    padding:0 10px;
+    line-height:30px;
+    cursor:pointer;
+    color:#525252;
+    border-bottom:1px #DDD solid;
+}
+
+#view_share_menu_normal.feature-normal-homeTab ul li a:hover{
+    color:#096816;/*#91c100;*/
+    background:#F9F9F9;
+    border-bottom:1px #91c100 solid;
+}
+
+#view_share_menu_normal.feature-normal-homeTab ul li a.active{
+    color:#FFF;/*#91c100;*/
+    background:#91c100;
+    border-bottom:1px #91c100 solid;
+}

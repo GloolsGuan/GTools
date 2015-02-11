@@ -1,0 +1,31 @@
+#view_custom_activity_period{
+
+}
+
+#view_custom_activity_period .block-title{
+    border:none;
+}
+
+#view_custom_activity_period .block-content .created{
+    line-height:28px;
+    color:#333;
+    font-size:0.9em;
+    text-align:center;
+    background:#EEE;
+    border-top:1px #DDD solid;
+    border-bottom:1px #DDD dotted;
+}
+#view_custom_activity_period .block-content .period{
+    line-height:80px;
+    font-size:2em;
+    color:#333;
+    text-align:center;
+    
+}
+#view_custom_activity_period .block-content .time,
+#view_custom_activity_period .block-content .duration{
+    line-height:28px;
+    color:#990000;
+    font-size:0.9em;
+    border-bottom:1px #DDD dotted;
+}

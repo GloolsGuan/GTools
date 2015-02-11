@@ -1,0 +1,32 @@
+#view_share_menu_normal{
+    height:auto;
+}
+
+#view_share_menu_normal.feature-normal-homeNavigator{
+    
+}
+
+#view_share_menu_normal .block-title{
+    display:none;
+}
+
+#view_share_menu_normal .homeNavigator ul li{
+    width:auto;
+    height:auto;
+    float:left;
+    margin:0 10px;
+}
+
+#view_share_menu_normal .homeNavigator ul li a{
+    padding:5px 10px;
+    background:#EEE;
+    line-height:50px;
+    color:#096816;
+    border-radius:5px;	
+}
+
+#view_share_menu_normal .homeNavigator ul li a:hover{
+    color:#096816;
+    background:#DDD;
+}
+

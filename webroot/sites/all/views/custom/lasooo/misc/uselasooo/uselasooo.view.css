@@ -1,0 +1,57 @@
+#view_custom_lasooo_uselasooo{
+    background:#C6E2FF url("/misc/images/lasooo-ad-01.jpg") no-repeat;
+    display:block;
+    overflow:hidden;
+}
+
+#view_custom_lasooo_uselasooo .block-content{
+    color:#228B22;
+}
+
+#view_custom_lasooo_uselasooo .block-content .title{
+    width:300px;
+    height:60px;
+    /*border:1px #FF0000 solid;*/
+    margin-left:-10px;
+    margin-top:20px;
+    position:absolute;
+}
+#view_custom_lasooo_uselasooo .block-content .title .title-bg{
+    background:#666;
+    width:300px;
+    height:60px;
+    filter:alpha(opacity=70);
+    -moz-opacity:0.7;
+    opacity:0.7;
+}
+#view_custom_lasooo_uselasooo .block-content .title .title-text{
+    font-size:1.6em;
+    line-height:60px;
+    color:#FFF;
+    margin-top:-60px;
+    margin-left:0px;
+    padding:0 20px;
+    position:absolute;
+}
+#view_custom_lasooo_uselasooo .icons{
+    height: 50px;
+    margin-top: 150px;
+    position: absolute;
+    text-align: center;
+    width: 1000px;
+    
+}
+#view_custom_lasooo_uselasooo .icons span{
+    font-size:3em;
+    line-height:50px;
+    text-align:center;
+    padding:0 58px;
+}
+
+#view_custom_lasooo_uselasooo .icons span a{
+    color:#A2B5CD;
+}
+
+#view_custom_lasooo_uselasooo .icons span a:hover{
+    color:#EE9A00;
+}

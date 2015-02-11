@@ -1,0 +1,53 @@
+.block-view_custom_node_activity-activities.feature-xf1996_teaser{
+    margin-bottom:50px;
+    margin-top:30px;
+}
+.block-view_custom_node_activity-activities.feature-xf1996_teaser .block-title{
+	display:none;
+}
+.block-view_custom_node_activity-activities.feature-xf1996_teaser .node{
+	margin-bottom:30px;
+}
+
+.block-view_custom_node_activity-activities.feature-xf1996_teaser .date{
+	width:150px;
+	text-align:right;
+	overflow:hidden;
+	height:200px;
+	float:left;
+	padding-right:30px;
+	background:url('/misc/xf1996/coner-line.png') no-repeat 15px -5px;
+}
+.block-view_custom_node_activity-activities.feature-xf1996_teaser .date img{
+	width:auto;
+	height:50px;
+}
+
+.block-view_custom_node_activity-activities.feature-xf1996_teaser .date .date-day{
+    padding-right:26px;
+}
+
+.block-view_custom_node_activity-activities.feature-xf1996_teaser .logo{
+	/*border:1px #FF9900 solid;*/
+	width:150px;
+	height:180px;
+	float:left;
+	overflow:hidden;
+}
+.block-view_custom_node_activity-activities.feature-xf1996_teaser .info-items{
+	width:360px;
+	float:left;
+	margin-left:30px;
+	overflow:hidden;
+}
+.block-view_custom_node_activity-activities.feature-xf1996_teaser .info-items .item-title{
+	margin-bottom:15px;
+}
+.block-view_custom_node_activity-activities.feature-xf1996_teaser .info-items .item-title a{
+	font-size:1.3em;
+}
+
+.block-view_custom_node_activity-activities.feature-xf1996_teaser .info-items  .field-name-field--date-time,
+.block-view_custom_node_activity-activities.feature-xf1996_teaser .info-items  .field-name-field-address{
+	/*color:#999;*/
+}

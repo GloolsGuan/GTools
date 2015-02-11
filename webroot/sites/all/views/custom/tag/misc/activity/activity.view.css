@@ -1,0 +1,18 @@
+#view_custom_tag_activity .block-title{
+    padding:0 10px;
+}
+#view_custom_tag_activity .block-content{
+    padding:8px;
+    font-size:0.8em;
+}
+
+#view_custom_tag_activity a{
+    /*color:#FF6600;*/
+    color: #FF6600;
+    line-height: 24px;
+    padding: 3px 5px;
+}
+
+#view_custom_tag_activity a:hover{
+    color:#FF6600;
+}

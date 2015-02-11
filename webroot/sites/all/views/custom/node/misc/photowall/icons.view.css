@@ -1,0 +1,593 @@
+.block-view_custom_node_photowall-xf1996.feature-icons{
+    height:450px;
+    margin-top:50px;
+    overflow:hidden;
+}
+
+.block-view_custom_node_photowall-xf1996.feature-icons .block-title{
+	display:block;
+	height:40px;
+	margin-bottom:20px;
+	text-align:center;
+	background:url('/misc/xf1996/block-title-bgline.jpg') repeat-x 0 15px;
+}
+
+.block-view_custom_node_photowall-xf1996.feature-icons .block-title img{
+    height:40px;
+    width:auto;
+}
+
+.block-view_custom_node_photowall-xf1996.feature-icons .field-item{
+	width:189px;
+	height:189px;
+	overflow:hidden;
+	float:left;
+	margin:3px;
+}
+
+.block-view_custom_node_photowall-xf1996.feature-icons .handlers{
+	display:none;
+}
+.block-view_custom_node_photowall.feature-icons .handlers .bA img,
+.block-view_custom_node_photowall.feature-icons .handlers .bB img{
+	height:50px;
+	width:auto;
+}
+
+/* -- laoqianaipaizhao -- */
+.block-view_custom_node_photowall-xf1996.laoqianaipaizhao{
+    height:350px;
+}
+.block-view_custom_node_photowall-xf1996.laoqianaipaizhao .block-title{
+    width:130px;
+    height:auto;
+    float:left;
+    padding:0px;
+    margin-top:12px;
+    background:none;
+}
+.block-view_custom_node_photowall-xf1996.laoqianaipaizhao .block-title img{
+	width:120px;
+	height:auto;
+}
+.block-view_custom_node_photowall-xf1996.laoqianaipaizhao .block-content{
+	width:570px;
+	float:right;
+}
+
+.block-view_custom_node_photowall-xf1996.laoqianaipaizhao .field-name-field-photos .field-item:first-child{
+	width:278px;
+	height:280px;
+	overflow:hidden;
+}
+
+.block-view_custom_node_photowall-xf1996.laoqianaipaizhao .field-name-field-photos .field-item:first-child img{
+	width:280px;
+	height:auto;
+}
+
+.block-view_custom_node_photowall-xf1996.laoqianaipaizhao .field-name-field-photos .field-item{
+	width:277px;
+	height:136px;
+	margin:3px;
+}
+.block-view_custom_node_photowall-xf1996.laoqianaipaizhao .field-name-field-photos .field-item img{
+	width:280px;
+	height:auto;
+}
+
+/* -- xianfengren -- */
+.block-view_custom_node_photowall-xf1996.xianfengren{
+    ;
+}
+
+.block-view_custom_node_photowall-xf1996.xianfengren .block-title img,
+.block-view_custom_node_photowall-xf1996.duzhedexianfeng .block-title img{
+	height:32px;
+	width:auto;
+}
+
+.block-view_custom_node_photowall-xf1996.xianfengren .block-content{
+	width:600px;
+    margin:0 60px;
+	height:auto;
+	overflow:hidden;
+}
+.block-view_custom_node_photowall-xf1996.xianfengren .node{
+    height:290px;
+    float:left;
+    width:600px;
+    overflow:hidden;
+}
+.block-view_custom_node_photowall-xf1996.xianfengren .field-name-field-photos .field-item:first-child{
+	width:318px;
+	height:276px;
+	overflow:hidden;
+}
+.block-view_custom_node_photowall-xf1996.xianfengren .field-name-field-photos .field-item:first-child img{
+	width:320px;
+	height:auto;
+	min-height:276px;
+}
+
+.block-view_custom_node_photowall-xf1996.xianfengren .field-name-field-photos .field-item{
+	width:132px;
+	height:136px;
+	margin:3px;
+}
+.block-view_custom_node_photowall-xf1996.xianfengren .field-name-field-photos .field-item img{
+	width:132px;
+	height:auto;
+	min-height:136px;
+}
+.block-view_custom_node_photowall-xf1996.xianfengren .handlers{
+	display:block;
+	height:0px;
+	line-height:30px;
+	
+	padding:0 10px;
+	margin:0 4px;
+}
+.block-view_custom_node_photowall-xf1996.xianfengren .handlers .bA{
+    position:absolute;
+    margin-top:-165px;
+    margin-left:650px;
+}
+.block-view_custom_node_photowall-xf1996.xianfengren .handlers .bB{
+    position:absolute;
+    margin-top:-165px;
+    margin-left:-5px;
+}
+.block-view_custom_node_photowall-xf1996.xianfengren .handlers .bA img,
+.block-view_custom_node_photowall-xf1996.xianfengren .handlers .bB img{
+	height:50px;
+	width:auto;
+}
+.block-view_custom_node_photowall-xf1996.xianfengren .handlers>span{
+	float:right;
+	padding:0 8px;
+	margin:0 5px;
+	
+}
+.block-view_custom_node_photowall-xf1996.xianfengren .handlers .tabsMap{
+    width:auto;
+}
+.block-view_custom_node_photowall-xf1996.xianfengren .handlers .tabsMap div{
+	float:left;
+	padding:0 6px;
+	margin:0 5px;
+	cursor:pointer;
+}
+.block-view_custom_node_photowall-xf1996.xianfengren .handlers .handlerActive,
+.block-view_custom_node_photowall-xf1996.xianfengren .handlers .tabActive{
+    color:#0071B3;
+    cursor:pointer;
+}
+
+/*  -- xf1996.DuZheYanZhongDeXianFeng --  */
+.block-view_custom_node_photowall-xf1996.duzhedexianfeng{
+	height:auto;
+}
+.block-view_custom_node_photowall-xf1996.duzhedexianfeng .block-content{
+	width:600px;
+	height:auto;
+	margin:0 60px;
+	overflow:hidden;
+}
+.block-view_custom_node_photowall-xf1996.duzhedexianfeng .node{
+	float:left;
+	max-height:660px;
+	width:600px;
+	height:auto;
+	overflow:hidden;
+}
+.block-view_custom_node_photowall-xf1996.duzhedexianfeng .field-item{
+	width:194px;
+	height:194px;
+	overflow:hidden;
+	float:left;
+	margin:3px;
+}
+.block-view_custom_node_photowall-xf1996.duzhedexianfeng .handlers{
+	display:block;
+	height:30px;
+	line-height:30px;
+	margin:2px;
+}
+.block-view_custom_node_photowall-xf1996.duzhedexianfeng .handlers .bB,
+.block-view_custom_node_photowall-xf1996.duzhedexianfeng .handlers .bA{
+	float:right;
+	width:auto;
+	padding:2px 8px;
+	font-size:2em;
+	margin:0 5px;
+	cursor:pointer;
+	
+	/*background:#FF0000;*/
+}
+
+.block-view_custom_node_photowall-xf1996.duzhedexianfeng .handlers .bB{
+	position: absolute;
+	margin-top: -330px;
+}
+.block-view_custom_node_photowall-xf1996.duzhedexianfeng .handlers .bA{
+	position: absolute;
+	margin-top: -330px;
+	margin-left:665px;
+}
+.block-view_custom_node_photowall-xf1996.duzhedexianfeng .handlers>span{
+	float:right;
+	padding:0 8px;
+	margin:0 5px;
+	
+}
+.block-view_custom_node_photowall-xf1996.duzhedexianfeng .handlers .tabsMap{
+    width:auto;
+    display:none;
+}
+.block-view_custom_node_photowall-xf1996.duzhedexianfeng .handlers .tabsMap div{
+	float:left;
+	padding:0 6px;
+	margin:0 5px;
+	cursor:pointer;
+}
+.block-view_custom_node_photowall-xf1996.duzhedexianfeng .handlers .handlerActive,
+.block-view_custom_node_photowall-xf1996.duzhedexianfeng .handlers .tabActive{
+    color:#0071B3;
+    cursor:pointer;
+}
+
+/*  -- New Coffee --  */
+.block-view_custom_node_photowall-coffee.kafeixinpin{
+
+}
+
+.block-view_custom_node_photowall-coffee.kafeixinpin .block-title{
+    display:block;
+	height:40px;
+	margin-bottom:20px;
+	text-align:center;
+	background:url('/misc/xf1996/block-title-bgline.jpg') repeat-x 0 18px;
+}
+
+.block-view_custom_node_photowall-coffee.kafeixinpin .block-title img{
+	height:40px;
+	width:auto;
+}
+
+.block-view_custom_node_photowall-coffee.kafeixinpin .node .field-name-field-photos .field-item{
+	float:left;
+}
+
+.block-view_custom_node_photowall-coffee.kafeixinpin .node .field-name-field-photos .order-1{
+    width:355px;
+    height:355px;
+    overflow:hidden;
+}
+
+.block-view_custom_node_photowall-coffee.kafeixinpin .node .field-name-field-photos .order-1 img{
+	width:355px;
+	min-height:355px;
+	height:auto;
+}
+
+.block-view_custom_node_photowall-coffee.kafeixinpin .node .field-name-field-photos .order-2{
+    width:359px;
+    margin-left:6px;
+    height:170px;
+    overflow:hidden;
+}
+
+.block-view_custom_node_photowall-coffee.kafeixinpin .node .field-name-field-photos .order-2 img{
+	width:359px;
+	height:auto;
+	min-height:170px;
+}
+
+.block-view_custom_node_photowall-coffee.kafeixinpin .node .field-name-field-photos .order-3{
+    width:177px;
+    margin-left:6px;
+    margin-top:6px;
+    height:179px;
+    overflow:hidden;
+}
+
+.block-view_custom_node_photowall-coffee.kafeixinpin .node .field-name-field-photos .order-4{
+    width:176px;
+    margin-top:6px;
+    margin-left:6px;
+    height:179px;
+    overflow:hidden;
+}
+
+.block-view_custom_node_photowall-coffee.kafeixinpin .node .field-name-field-photos .order-3 img,
+.block-view_custom_node_photowall-coffee.kafeixinpin .node .field-name-field-photos .order-4 img{
+	width:177px;
+	height:auto;
+	min-height:179px;
+}
+
+.block-view_custom_node_photowall-coffee.kafeixinpin .handlers{
+	display:none;
+}
+
+
+
+/* --block-view_custom_node_photowall-activities feature-icons hdxc-- */
+.block-view_custom_node_photowall-activities.hdxc{
+	margin-bottom:50px;
+}
+
+.block-view_custom_node_photowall-activities.hdxc .block-title{
+    display:block;
+	height:40px;
+	width:100%;
+	margin-bottom:30px;
+	text-align:center;
+	background:url('/misc/xf1996/block-title-bgline.jpg') repeat-x 0 12px;
+}
+.block-view_custom_node_photowall-activities.hdxc .block-content{
+	width:100%;
+	overflow:hidden;
+}
+.block-view_custom_node_photowall-activities.hdxc .block-title img{
+	height:40px;
+	width:auto;
+}
+.block-view_custom_node_photowall-activities.hdxc .node{
+	padding:0 60px;
+	float:left;
+	width:600px;
+	height:auto;
+	overflow:hidden;
+}
+.block-view_custom_node_photowall-activities.hdxc .node .field-name-field-photos .field-item{
+	width:140px;
+	height:140px;
+	float:left;
+	margin:5px;
+	overflow:hidden;
+}
+.block-view_custom_node_photowall-activities.hdxc .node .field-name-field-photos .field-item img{
+	width:140px;
+	height:auto;
+	min-height:140px;
+}
+
+.block-view_custom_node_photowall-activities.hdxc .handlers{
+	height:40px;
+	width:auto;
+}
+
+.block-view_custom_node_photowall-activities.hdxc .handlers .bB,
+.block-view_custom_node_photowall-activities.hdxc .handlers .bA{
+	float:right;
+	width:auto;
+	padding:2px 8px;
+	font-size:2em;
+	margin:0 5px;
+	cursor:pointer;
+	
+	/*background:#FF0000;*/
+}
+
+.block-view_custom_node_photowall-activities.hdxc .handlers .bB{
+	position: absolute;
+	margin-top: -250px;
+}
+.block-view_custom_node_photowall-activities.hdxc .handlers .bA{
+	position: absolute;
+	margin-top: -250px;
+	margin-left:670px;
+}
+
+.block-view_custom_node_photowall-activities.hdxc .handlers .tabsMap_item{
+	float:left;
+	width:auto;
+	padding:8px 8px;
+	display:none;
+	font-size:1.2em;
+	margin:0 5px;
+	cursor:pointer;
+}
+
+.block-view_custom_node_photowall-activities.hdxc .handlers .handlerActive,
+.block-view_custom_node_photowall-activities.hdxc .handlers .tabActive{
+	color:#018FE2;
+}
+
+
+/* block-view_custom_node_photowall-xf1996 feature-icons mdjj */
+.block-view_custom_node_photowall-xf1996.mdjj{
+	height:auto;
+}
+.block-view_custom_node_photowall-xf1996.mdjj .block-content{
+	width:580px;
+	height:auto;
+	margin:0 70px;
+	overflow:hidden;
+}
+.block-view_custom_node_photowall-xf1996.mdjj .block-content .node{
+	width:580px;
+	max-height:490px;
+	float:left;
+}
+.block-view_custom_node_photowall-xf1996.mdjj .field-item {
+    width: 139px;
+    height: 139px;
+    overflow: hidden;
+    float: left;
+    margin: 3px;
+}
+.block-view_custom_node_photowall-xf1996.mdjj .field-item img{
+	width:139px;
+	height:auto;
+	min-height:154px;
+}
+.block-view_custom_node_photowall-xf1996.mdjj .handlers{
+	display:block;
+	position:relative;
+}
+.block-view_custom_node_photowall-xf1996.mdjj .handlers .bB,
+.block-view_custom_node_photowall-xf1996.mdjj .handlers .bA{
+	float:right;
+	width:auto;
+	padding:2px 8px;
+	z-index:0;
+	font-size:2em;
+	margin:0 5px;
+	position:absolute;
+	cursor:pointer;
+	
+	/*background:#FF0000;*/
+}
+
+.block-view_custom_node_photowall-xf1996.mdjj .handlers .bB{
+	margin-top: -240px;
+}
+.block-view_custom_node_photowall-xf1996.mdjj .handlers .bA{
+	margin-top: -240px;
+	margin-left:670px;
+}
+.block-view_custom_node_photowall-xf1996.mdjj .tabsMap{
+	display:none;
+}
+.block-view_custom_node_photowall-xf1996.mdjj .handlers .handlerActive{
+	color:#018FE2;
+}
+
+
+/*  -- block-view_custom_node_photowall-coffee feature-icons xfyskf --  */
+/*  -- Coffee Inn --  */
+.block-view_custom_node_photowall-coffee.xfyskf{
+    margin-top:50px;
+    height:auto;
+}
+.block-view_custom_node_photowall-coffee.xfyskf .block-title{
+    display:block;
+	height:40px;
+	/*margin-bottom:20px;*/
+	text-align:center;
+	background:url('/misc/xf1996/block-title-bgline.jpg') repeat-x 0 18px;
+}
+
+.block-view_custom_node_photowall-coffee.xfyskf .block-title img{
+	height:40px;
+	width:auto;
+}
+.block-view_custom_node_photowall-coffee.xfyskf .block-content{
+	width:580px;
+	height:auto;
+	margin:20px 70px;
+	overflow:hidden;
+}
+.block-view_custom_node_photowall-coffee.xfyskf .node{
+	width:580px;
+	float:left;
+	overflow:hidden;
+}
+.block-view_custom_node_photowall-coffee.xfyskf .node .field-name-field-photos .field-item{
+	width:185px;
+	height:185px;
+	margin:3px;
+	overflow:hidden;
+	float:left;
+}
+.block-view_custom_node_photowall-coffee.xfyskf .node .field-name-field-photos .field-item img{
+	width:185px;
+	height:auto;
+	min-height:185px;
+}
+
+
+.block-view_custom_node_photowall-coffee.xfyskf .handlers .bB,
+.block-view_custom_node_photowall-coffee.xfyskf .handlers .bA{
+	float:right;
+	width:auto;
+	padding:2px 8px;
+	font-size:2em;
+	margin:0 5px;
+	cursor:pointer;
+}
+
+.block-view_custom_node_photowall-coffee.xfyskf .handlers .bB{
+	position: absolute;
+	margin-top: -330px;
+}
+.block-view_custom_node_photowall-coffee.xfyskf .handlers .bA{
+	position: absolute;
+	margin-top: -330px;
+	margin-left:670px;
+}
+.block-view_custom_node_photowall-coffee.xfyskf .tabsMap{
+	display:none;
+}
+.block-view_custom_node_photowall-coffee.xfyskf .handlers .handlerActive{
+	color:#018FE2;
+}
+
+/* XianFeng ChuangYiGuan */
+.block-view_custom_node_photowall-design.xfcy {
+	margin:60px 0;
+	clear:both;
+}
+.block-view_custom_node_photowall-design.xfcy .block-title{
+    display:block;
+	height:40px;
+	width:100%;
+	margin-bottom:30px;
+	text-align:center;
+	background:url('/misc/xf1996/block-title-bgline.jpg') repeat-x 0 17px;
+}
+
+.block-view_custom_node_photowall-design.xfcy .block-title img{
+	height:40px;
+	width:auto;
+}
+.block-view_custom_node_photowall-design.xfcy .block-content{
+	width:100%;
+	overflow:hidden;
+}
+.block-view_custom_node_photowall-design.xfcy .node{
+    width:618px;
+    float:left;
+    margin:0 53px;
+}
+
+.block-view_custom_node_photowall-design.xfcy .node .field-name-field-photos .field-item{
+	width:200px;
+	height:200px;
+	margin:3px;
+	float:left;
+}
+
+.block-view_custom_node_photowall-design.xfcy .node .field-name-field-photos .field-item img{
+    width:200px;
+    height:200px;
+}
+
+.block-view_custom_node_photowall-design.xfcy .handlers .bB,
+.block-view_custom_node_photowall-design.xfcy .handlers .bA{
+	float:right;
+	width:auto;
+	padding:2px 8px;
+	font-size:2em;
+	margin:0 5px;
+	cursor:pointer;
+}
+
+.block-view_custom_node_photowall-design.xfcy .handlers .bB{
+	position: absolute;
+	margin-top: -330px;
+}
+.block-view_custom_node_photowall-design.xfcy .handlers .bA{
+	position: absolute;
+	margin-top: -330px;
+	margin-left:673px;
+}
+.block-view_custom_node_photowall-design.xfcy .tabsMap{
+	display:none;
+}
+.block-view_custom_node_photowall-design.xfcy .handlers .handlerActive{
+	color:#018FE2;
+}

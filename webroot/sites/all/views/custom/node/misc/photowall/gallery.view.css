@@ -1,0 +1,61 @@
+#view_custom_node_photowall{
+	width:720px;
+	height:560px;
+	background:#333;
+	float:left;
+	overflow:hidden;
+}
+
+#view_custom_node_photowall .block-title{
+    background:#525252;
+    color:#FF9900;
+    line-height:50px;
+    padding:0 15px;
+}
+#view_custom_node_photowall .block-content{
+	padding:2px 3px;
+	width:713px;
+	height:560px;
+	overflow:hidden;
+}
+#view_custom_node_photowall .block-content .node{
+	padding:2px 3px;
+	width:713px;
+	height:560px;
+	overflow:hidden;
+}
+#view_custom_node_photowall .node .field-item{
+	margin:1px;
+}
+#view_custom_node_photowall .node .item-level-1{
+	width:424px;
+	height:304px;
+	overflow:hidden;
+}
+#view_custom_node_photowall .node .item-level-1 img{
+	width:430px;
+	height:auto;
+}
+#view_custom_node_photowall .node .item-level-2,
+#view_custom_node_photowall .node .item-level-3{
+	width:140px;
+	height:100px;
+	overflow:hidden;
+}
+
+#view_custom_node_photowall .handlers{
+	position:absolute;
+	margin-top: -604px;
+	margin-left: 583px;
+}
+
+#view_custom_node_photowall .handlers span{
+	padding:8px 20px;
+	background:#DDD;
+	font-size:1.5em;
+	cursor:pointer;
+}
+
+#view_custom_node_photowall .handlers .handlerActive{
+    /*display:block;*/
+}

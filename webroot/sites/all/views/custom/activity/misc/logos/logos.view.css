@@ -1,0 +1,51 @@
+#view_custom_activity_logos .slideContainer{
+    width:680px;
+    height:auto;
+    overflow:hidden;
+}
+
+#view_custom_activity_logos .slideContent .item{
+    width:680px;
+    height:auto;
+    text-align:center;
+}
+
+#view_custom_activity_logos .handlers{
+    height:36px;
+    background:#EEE;
+    border-radius:5px;
+    margin:10px 0;
+}
+
+#view_custom_activity_logos .handlers>div{
+    float:right;
+}
+
+#view_custom_activity_logos .handlers .bA,
+#view_custom_activity_logos .handlers .bB{
+    padding:0 8px;
+    height:36px;
+    line-height:36px;
+    background:#DDD;
+    margin:0 5px;
+    cursor:pointer;
+}
+
+#view_custom_activity_logos .handlers .tabsMap{
+    width:auto;
+    height:36px;
+}
+
+#view_custom_activity_logos .handlers .tabsMap>div{
+    height:36px;
+    padding:0 8px;
+    margin:0 5px;
+    background:#DDD;
+    line-height:36px;
+    cursor:pointer;
+    float:left;
+}
+#view_custom_activity_logos .handlers .tabActive,
+#view_custom_activity_logos .handlers .handlerActive{
+    color:#FF0000;
+}

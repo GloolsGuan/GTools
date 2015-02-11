@@ -1,0 +1,197 @@
+<?php
+/*
+ * Created on Sep 8, 2012
+ *
+ * menu rule:
+ * page.+ : for all single page.
+ * 
+ */
+function frontend_init(){
+    Glools_Inc_Tools::loadInc('funcs', 'lib', 'frontend');
+    Glools_Inc_Tools::loadInc('theme', 'lib', 'frontend');
+    $requestPath = request_path();
+    
+    // Special for frontpage
+    if (empty($requestPath)) {
+        Glools_Inc_Tools::loadInc('frontpage', 'channel', 'frontend');
+        frontend_channel_frontpage();
+    }
+    
+    Glools_Inc_Tools::loadInc('seo', 'lib', 'glools');
+    $seoData = array(
+        'keywords'    => '先锋书店, 独立先锋书店, 独立书店, 南京书店, 南京, 书店, 读书, 阅读, 书',
+        'description' => '读书，启迪智慧, 丰富人生!'
+    );
+    set_seo($seoData);
+    
+    if (in_array($requestPath, array('system/ajax'))) {
+        Glools_Inc_Tools::loadInc('form-element-validate', 'lib', 'glools');
+    }
+    
+    if (preg_match('/^file\/ajax\/.*/', $requestPath)) {
+        require_once(drupal_get_path('module', 'node').'/node.pages.inc');
+    }
+}
+
+
+function frontend_menu(){
+
+    return array(
+        'channels' => array(
+            'title' => t('Channels'),
+            'type'  => MENU_CALLBACK,
+            'page callback' => 'frontend_channel_router',
+            'page arguments' => array(0),
+            'access arguments' => array('access content')
+        ),
+        'activities' => array(
+            'title' => t('Activities'),
+            'type'  => MENU_CALLBACK,
+            'page callback' => 'frontend_channel_router',
+            'page arguments' => array(0),
+            'access arguments' => array('access content')
+        ),
+        'xf1996' => array(
+            'title' => t('Libraries Avant-Garde'),
+            'type'  => MENU_CALLBACK,
+            'page callback' => 'frontend_channel_router',
+            'page arguments' => array(0),
+            'access arguments' => array('access content')
+        ),
+        'books' => array(
+            'title' => t('Books'),
+            'type'  => MENU_CALLBACK,
+            'page arguments' => array(0),
+            'page callback' => 'frontend_channel_router',
+            'access arguments' => array('access content')
+        ),
+        'design' => array(
+            'title' => t('Design'),
+            'type'  => MENU_CALLBACK,
+            'page arguments' => array(0),
+            'page callback' => 'frontend_channel_router',
+            'access arguments' => array('access content')
+        ),
+        'coffee' => array(
+            'title' => t('Coffee'),
+            'type'  => MENU_CALLBACK,
+            'page arguments' => array(0),
+            'page callback' => 'frontend_channel_router',
+            'access arguments' => array('access content')
+        ),
+        'member' => array(
+            'title' => t('Member'),
+            'type'  => MENU_CALLBACK,
+            'page arguments' => array(0),
+            'page callback' => 'frontend_channel_router',
+            'access arguments' => array('access content')
+        )
+    );
+}
+
+
+function frontend_channel_router($channel){
+    Glools_Inc_Tools::loadInc($channel, 'channel', 'frontend');
+    $hook = 'frontend_channel_' . $channel;
+    //debug_rdata(__FUNCTION__, $hook);
+    return $hook();
+}
+
+
+function frontend_forms($formId, $args){
+	
+}
+
+
+function frontend_form_alter($form, $form_state, $form_id){
+	
+}
+
+
+function frontend_node_view_alter(&$node){
+    
+    $nodeType = $node['#node']->type;
+    
+    $nodeViewAlterHook = 'node_'.$nodeType . '_view_alter';
+    
+    Glools_Inc_Tools::loadInc($nodeViewAlterHook, 'lib', 'frontend');
+    
+    $hook = 'frontend_' . $nodeViewAlterHook;
+    
+    if (function_exists($hook)) {
+        $hook($node);
+    }
+    
+    frontend_node_viewModeStyle($node);
+}
+
+
+// --  [hook:form_alter] comment_view
+function frontend_comment_view_alter($build, $type){
+	
+}
+
+
+function frontend_layout_alter(&$layout){
+	$path = request_path();
+    
+    $channel = frontend_get_channel();
+    
+    Glools_Inc_Tools::loadInc($channel, 'channel', 'frontend');
+    $hook = 'frontend_channel_' . $channel;
+    $layoutAlterHook = 'frontend_channel_' . $channel . '_layout_alter';
+    //echo $layoutAlterHook;
+    if (function_exists($layoutAlterHook)) {
+    	$layoutAlterHook($layout);
+    }else{
+    	$layout = '2ca';
+    }
+    
+    if ('2ca'==$layout) {
+    	drupal_add_js(path_to_theme() . '/js/2ca.page.js');
+    }
+}
+
+
+function frontend_theme(){
+	return array(
+        'block-prompting' => array(
+            'variables'=> array('title' => NULL, 'mess'=>NULL, 'links'=>array()),
+            'template' => 'promoting-page'
+        ),
+        'fblock'          => array(
+            'variables' => array('subject'=>null, 'content'=>null),
+            'template'  => 'fblock'
+        )
+    );
+}
+
+
+function frontend_preprocess_fblock(&$variables){
+	if (!empty($variables['#attributes']['class'])) {
+		array_unshift($variables['#attributes']['class'], 'block');
+	}
+}
+
+
+/**
+ * Extend single node template for supporting node--[content type]-[view mode].tpl.php
+ * The template file should be  folder "themes/[your theme package]/templates" .
+ * For backend theme, the default path of template should be "/webroot/themes/seven/templates"
+ * */
+function frontend_preprocess_node(&$variables){
+    //debug_rdata(__FUNCTION__, 'node__'.$variables['node']->type.'_'.$variables['view_mode']);
+    $variables['theme_hook_suggestions'][] = 'node__'.$variables['node']->type.'_'.$variables['view_mode'];
+}
+
+
+function frontend_page_build(&$vars){
+    frontend_proprocess_page_build($vars);
+}
+
+
+function frontend_ctools_plugin_directory($owner, $plugin_type){
+	if ($plugin_type == 'content_types') {
+        return 'inc_plugins/' . $plugin_type;
+    }
+}
