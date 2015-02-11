@@ -27,7 +27,7 @@ Base on GTools and drupal7 you can build any site easily. But it is need a littl
 
 The GTools package is still on developing, maybe after you download it, You found that it is not ready and stable. But Please take it easy, There are several sites developed on the package.
 
-...
+...|...
 
 
 The contents of the package:
