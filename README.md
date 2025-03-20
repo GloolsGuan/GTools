@@ -7,9 +7,9 @@ Connect to me:
 
 Twitter : @GloolsGuan
 
-Email   : GloolsGuan@glools.com
+Email   : GloolsGuan@gmail.com
 
-Blog    : http://glools.me/index.php/gtools
+Blog    : http://blog.glools.com/
 
 
 
